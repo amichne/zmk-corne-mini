@@ -1,6 +1,7 @@
-### My store https://www.keyboard-hoarders.com https://www.keyboardhoarders.etsy.com
-![ukogvc9z copy](https://github.com/user-attachments/assets/59156141-b7cd-4627-be30-9b69cd84722c)
+### Configuration
+Custom configuration can be set easily using the [Web UI](https://nickcoutsos.github.io/keymap-editor)
 
+[Guide for flashing updated configuration](https://keyboard-hoarders.com/pages/guides-1)
 
 ### Keymap Layout
 
