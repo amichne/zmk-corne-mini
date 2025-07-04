@@ -190,10 +190,10 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&trans  &kp N1       &kp N2        &kp N3             &kp N4          &kp N5           &kp N6            &kp N7             &kp N8               &kp N9              &kp N0          &trans
-&trans  &hm LGUI N0  &hm LSHFT N4  &hm LALT UP_ARROW  &hm LCTRL HOME  &kp PAGE_UP      &kp N0            &hm RCTRL LEFT     &hm RALT DOWN_ARROW  &hm RSHFT UP_ARROW  &hm RGUI RIGHT  &trans
-&trans  &kp ESCAPE   &paraless     &paragreat         &kp END         &kp PAGE_DOWN    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp N2               &kp N3              &kp PAGE_DOWN   &trans
-                                   &kp LGUI           &trans          &kp SPACE        &kp RET           &trans             &trans
+&trans  &kp N1        &kp N2                  &kp N3                  &kp N4          &kp N5           &kp N6   &kp N7          &kp N8               &kp N9           &kp N0          &trans
+&trans  &hm LGUI SQT  &hm LSHFT LEFT_BRACKET  &hm LALT RIGHT_BRACKET  &hm LCTRL HOME  &kp PAGE_UP      &kp N0   &hm RCTRL LEFT  &hm RALT DOWN_ARROW  &hm RSHFT MINUS  &hm RGUI EQUAL  &trans
+&trans  &kp ESCAPE    &paraless               &paragreat              &kp END         &kp PAGE_DOWN    &trans   &trans          &paraless            &paragreat       &kp BACKSLASH   &trans
+                                              &kp LGUI                &trans          &kp SPACE        &kp RET  &trans          &trans
             >;
         };
 
@@ -207,10 +207,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp EXCL      &kp AT          &kp HASH           &kp DLLR         &kp PRCNT    &kp CARET  &kp AMPS         &kp ASTRK      &kp LEFT_PARENTHESIS  &kp RPAR       &trans
-&trans  &hm LCMD ESC  &trans          &hm LALT UP_ARROW  &hm LCTRL SQT    &kp GRAVE    &kp MINUS  &hm RCTRL EQUAL  &hm RALT LBKT  &hm RSHFT RBKT        &hm RGUI BSLH  &trans
-&trans  &trans        &kp LEFT_ARROW  &kp DOWN_ARROW     &kp RIGHT_ARROW  &kp TILDE    &kp UNDER  &kp PLUS         &kp LBRC       &kp RBRC              &kp PIPE       &trans
-                                      &kp LGUI           &trans           &kp SPACE    &kp RET    &trans           &trans
+&trans  &kp EXCL  &kp AT          &kp HASH           &kp DLLR         &kp PRCNT    &kp CARET  &kp AMPS         &kp ASTRK      &kp LEFT_PARENTHESIS    &kp RPAR                &trans
+&trans  &trans    &trans          &hm LALT UP_ARROW  &hm LCTRL SQT    &kp GRAVE    &kp MINUS  &hm RCTRL EQUAL  &hm RALT LBKT  &hm RSHFT LEFT_BRACKET  &hm RGUI RIGHT_BRACKET  &trans
+&trans  &kp ESC   &kp LEFT_ARROW  &kp DOWN_ARROW     &kp RIGHT_ARROW  &kp TILDE    &kp UNDER  &kp PLUS         &kp LBRC       &kp RBRC                &kp PIPE                &trans
+                                  &kp LGUI           &trans           &kp SPACE    &kp RET    &trans           &trans
             >;
         };
 
