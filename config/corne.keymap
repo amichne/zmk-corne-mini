@@ -192,7 +192,7 @@
             bindings = <
 &trans  &kp N1       &kp N2        &kp N3             &kp N4          &kp N5           &kp N6            &kp N7             &kp N8               &kp N9              &kp N0          &trans
 &trans  &hm LGUI N0  &hm LSHFT N4  &hm LALT UP_ARROW  &hm LCTRL HOME  &kp PAGE_UP      &kp N0            &hm RCTRL LEFT     &hm RALT DOWN_ARROW  &hm RSHFT UP_ARROW  &hm RGUI RIGHT  &trans
-&trans  &kp ESCAPE   &kp LEFT      &kp DOWN           &kp END         &kp PAGE_DOWN    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp N2               &kp N3              &kp PAGE_DOWN   &trans
+&trans  &kp ESCAPE   &paraless     &paragreat         &kp END         &kp PAGE_DOWN    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp N2               &kp N3              &kp PAGE_DOWN   &trans
                                    &kp LGUI           &trans          &kp SPACE        &kp RET           &trans             &trans
             >;
         };
@@ -217,10 +217,10 @@
         ADJ {
             display-name = "System";
             bindings = <
-&trans  &kp F1        &kp F2         &kp F3        &kp F4      &kp F5            &kp F6  &kp F7  &kp F8  &kp F9  &kp F10      &trans
-&trans  &hm LGUI F11  &hm LSHFT F12  &trans        &trans      &studio_unlock    &trans  &trans  &trans  &trans  &trans       &trans
-&trans  &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2  &bt BT_CLR  &bt BT_CLR_ALL    &trans  &trans  &trans  &trans  &bootloader  &trans
-                                     &trans        &trans      &trans            &trans  &trans  &trans
+&trans  &kp F1        &kp F2         &kp F3  &kp F4  &kp F5            &kp F6        &kp F7  &kp F8  &kp F9              &kp F10       &trans
+&trans  &hm LGUI F11  &hm LSHFT F12  &trans  &trans  &studio_unlock    &trans        &trans  &trans  &hm LEFT_SHIFT F11  &hm RCMD F12  &trans
+&trans  &trans        &trans         &trans  &trans  &bt BT_SEL 0      &bt BT_SEL 1  &trans  &trans  &trans              &bootloader   &trans
+                                     &trans  &trans  &trans            &trans        &trans  &trans
             >;
         };
 
